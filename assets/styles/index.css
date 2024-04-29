@@ -53,19 +53,6 @@
     font-size: 25px;
 }
 
-<<<<<<< HEAD
-aside {
-    background-color: #153ea6;
-    padding: 40px;
-    width: 250px;
-    height: 500px;
-    float: right;
-    margin: 40px;
-}
-
-aside h2 {
-    color: #ffffff;
-=======
 main{
     float: left;
     width: 78%;
@@ -125,7 +112,6 @@ aside {
 }
 
 aside h2 {
->>>>>>> dev-gomezLeonardo
     font-size: 35px;
     margin: 10px;
     margin-bottom: 22px;
@@ -142,17 +128,10 @@ aside ul li {
 }
 
 aside ul li a {
-<<<<<<< HEAD
-    font-size: 20px;
-    margin: 15px;
-    text-decoration: none;
-    color: #ffffff;
-=======
     color:white;
     font-size: 20px;
     margin: 15px;
     text-decoration: none;
->>>>>>> dev-gomezLeonardo
 }
 
 aside ul li a:hover {
@@ -205,23 +184,14 @@ footer {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-/* Media queries para hacer el diseño responsive */
-
-@media screen and (max-width: 768px) {
-=======
 
 
 @media screen and (max-width: 1500px) {
->>>>>>> dev-gomezLeonardo
     .header {
         flex-direction: column;
         justify-content: center;
         height: auto;
-<<<<<<< HEAD
-=======
         padding: 20px;
->>>>>>> dev-gomezLeonardo
     }
 
     .header .logo {
@@ -229,18 +199,6 @@ footer {
         margin-bottom: 20px;
     }
 
-<<<<<<< HEAD
-    .header .nav-links li {
-        display: block;
-        padding: 10px 0;
-    }
-
-    aside {
-        float: none;
-        width: 100%;
-    }
-}
-=======
     .header .nav-links {
         display: flex;
         flex-direction: column;
@@ -291,4 +249,3 @@ footer {
     }
 }
 
->>>>>>> dev-gomezLeonardo
