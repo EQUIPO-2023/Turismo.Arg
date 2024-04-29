@@ -53,6 +53,7 @@
     font-size: 25px;
 }
 
+<<<<<<< HEAD
 aside {
     background-color: #153ea6;
     padding: 40px;
@@ -64,6 +65,67 @@ aside {
 
 aside h2 {
     color: #ffffff;
+=======
+main{
+    float: left;
+    width: 78%;
+}
+
+section{
+    height: 20%;
+    margin: 23px;
+}
+
+article{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: start;
+    flex-direction: column;
+    padding: 25px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10000);
+    -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.art-1{
+    background-image: url(../img/maldivas.jpeg);
+}
+
+.art-2{
+    background-image: url(../img/Rio\ de\ janeiro.jpg);
+}
+.art-3{
+    background-image: url(../img/florida.jpg);
+}
+.art-3{
+    width: 1476px;
+}
+
+aside {
+    float: right;
+    background-color:  #153ea6;
+    width: 20%;
+    height: 85vh;
+    float: right;
+    margin: 15px;
+    color:white;
+    -webkit-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.ofertas{
+    margin: 15px;
+    font-size: 15px;
+}
+
+aside h2 {
+>>>>>>> dev-gomezLeonardo
     font-size: 35px;
     margin: 10px;
     margin-bottom: 22px;
@@ -80,10 +142,17 @@ aside ul li {
 }
 
 aside ul li a {
+<<<<<<< HEAD
     font-size: 20px;
     margin: 15px;
     text-decoration: none;
     color: #ffffff;
+=======
+    color:white;
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+>>>>>>> dev-gomezLeonardo
 }
 
 aside ul li a:hover {
@@ -136,13 +205,23 @@ footer {
     margin-top: 20px;
 }
 
+<<<<<<< HEAD
 /* Media queries para hacer el diseño responsive */
 
 @media screen and (max-width: 768px) {
+=======
+
+
+@media screen and (max-width: 1500px) {
+>>>>>>> dev-gomezLeonardo
     .header {
         flex-direction: column;
         justify-content: center;
         height: auto;
+<<<<<<< HEAD
+=======
+        padding: 20px;
+>>>>>>> dev-gomezLeonardo
     }
 
     .header .logo {
@@ -150,6 +229,7 @@ footer {
         margin-bottom: 20px;
     }
 
+<<<<<<< HEAD
     .header .nav-links li {
         display: block;
         padding: 10px 0;
@@ -160,3 +240,55 @@ footer {
         width: 100%;
     }
 }
+=======
+    .header .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .nav-links li {
+        margin: 10px 0;
+    }
+
+    main {
+        width: 100%;
+        height: 100%;
+    }
+
+    section {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    article {
+        height: auto;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .art-3{
+        width: auto;
+    }
+
+    .art-1,
+    .art-2,
+    .art-3 {
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+    }
+
+    aside {
+        width: 100%;
+        float: inline-end;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+
+    }
+}
+
+>>>>>>> dev-gomezLeonardo
