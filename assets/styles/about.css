@@ -52,15 +52,14 @@
     color: #000000;
     font-size: 25px;
 }
-
 .contenedor-1{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
-/* .contenedor-1{
+.contenedor-1{
     display :flex;
     flex-direction: column;
-} */
+}
 
 .contenedor-texto{
     grid-column: 1/-1;
@@ -89,7 +88,7 @@ p{
 }
 
 footer {
-    background-color:#153ea6;
+    background-color:#00045f;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -134,49 +133,20 @@ footer {
     margin-top: 20px;
 }
 
-
-.contenidoTarjetas{
-    display: flex;
-    flex-direction: column;
-    /* border: #000000 2px solid;  */
-    box-shadow: 3px 3px 3px #aeabab;
-
-}
-
-.imgTarjetas{
-    height: 200px;
-    width: 250px;
-}
-.textoTarjetas{
-    margin: 20px 24px 0 24px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 45px;
-}
-h3:hover{
-    text-decoration: underline;
-    color: #071f5e;
-}
-h3{
-    color: #153ea6;
-}
-
-.tarjetas{
-    grid-column: 3/10;
-}
-.tarjetas{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin-bottom: 20px;
-    box-shadow: #000000 20px ;
-}
-.presentacion{
-    grid-column: 1/13;
-    padding: 20px;
-}
 h1{
-    text-align: center;
+    align-self: self-start;
+    margin-left: 190px;
+    padding-top: 20px;
+}
+/* pagina responsiva */
+@media (max-width: 780px) {
+    .imagenMain{
+        width: 250px;
+        height: 80%;
+    }
+    .tarjetas{
+        gap: 12px;
+        grid-column: 1/8;
+    }
+
 }
