@@ -53,13 +53,56 @@
     font-size: 25px;
 }
 
+main{
+    float: left;
+    width: 78%;
+}
+
+
 aside {
-    background-color: #153ea6;
-    padding: 40px;
-    width: 250px;
-    height: 500px;
     float: right;
-    margin: 40px;
+    background-color:rgb(235, 235, 235);
+    width: 20%;
+    height: 85vh;
+    float: right;
+    margin: 15px;
+    color: #00045f;
+}
+
+section{
+    height: 20%;
+    margin: 23px;
+}
+
+article{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: start;
+    flex-direction: column;
+    padding: 25px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 10000);
+}
+
+.art-1{
+    background-image: url(../img/maldivas.jpeg);
+}
+
+.art-2{
+    background-image: url(../img/Rio\ de\ janeiro.jpg);
+}
+.art-3{
+    background-image: url(../img/florida.jpg);
+}
+
+
+
+
+.art-3{
+    width: 1476px;
 }
 
 aside h2 {
