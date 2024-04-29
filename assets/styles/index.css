@@ -5,10 +5,11 @@
 }
 
 .header {
+    background: #153ea6;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 100px;
+    height: 120px;
     padding: 5px 10%;
 }
 
@@ -18,7 +19,7 @@
 }
 
 .header .logo img {
-    height: 80px;
+    height: 95px;
     border-radius: 50%;
     width: auto;
     transition: all 0.3s;
@@ -42,26 +43,30 @@
 }
 
 .header .nav-links a {
-    font-size: 700;
-    color: #00045f;
+    font-size: 20px;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .header .nav-links li a:hover {
-    color: #153ea6;
+    color: #000000;
+    font-size: 25px;
 }
 
 aside {
-    background-color: #f4f4f4;
-    padding: 20px;
-    width: 200px;
+    background-color: #153ea6;
+    padding: 40px;
+    width: 250px;
+    height: 500px;
     float: right;
+    margin: 40px;
 }
 
 aside h2 {
-    color: #333;
-    font-size: 20px;
-    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 35px;
+    margin: 10px;
+    margin-bottom: 22px;
 }
 
 aside ul {
@@ -75,17 +80,19 @@ aside ul li {
 }
 
 aside ul li a {
+    font-size: 20px;
+    margin: 15px;
     text-decoration: none;
-    color: #666;
+    color: #ffffff;
 }
 
 aside ul li a:hover {
-    color: #333;
+    color: #000000;
 }
 
 footer {
-    background-color: #f4f4f4;
-    color: #333;
+    background-color:#00045f;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -117,7 +124,7 @@ footer {
 }
 
 .footer-container ul li a {
-    color: #333;
+    color: #ffffff;
     text-decoration: none;
 }
 
