@@ -79,13 +79,17 @@
     width: 450px;
     height: 90%;
 }
+.footer{
+    color: white;
+}
 p{
  margin-top: 23px;
   text-align: center;
+  color: rgb(65, 63, 63);
 }
 
 footer {
-    background-color:#00045f;
+    background-color:#153ea6;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -134,14 +138,38 @@ footer {
 .contenidoTarjetas{
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    border: #000000 2px solid; 
+    /* border: #000000 2px solid;  */
+    box-shadow: 3px 3px 3px #aeabab;
+
 }
+
 .imgTarjetas{
-    height: 150px;
-    width: 200px;
+    height: 200px;
+    width: 250px;
 }
 .textoTarjetas{
+    margin: 20px 24px 0 24px;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    padding-bottom: 45px;
+}
+h3:hover{
+    text-decoration: underline;
+    color: #071f5e;
+}
+h3{
+    color: #153ea6;
+}
+
+.tarjetas{
+    grid-column: 3/10;
+}
+.tarjetas{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 20px;
+    box-shadow: #000000 20px ;
 }
