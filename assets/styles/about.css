@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,14 +52,14 @@
     color: #000000;
     font-size: 25px;
 }
-.contenedor-1{
+main{
     display: grid;
     grid-template-columns: repeat(12,1fr);
 }
-.contenedor-1{
+/* .contenedor-1{
     display :flex;
     flex-direction: column;
-}
+} */
 
 .contenedor-texto{
     grid-column: 1/-1;
@@ -72,16 +72,15 @@
 }
  .texto{
     margin: 0 20px 0 20px;
-    
  }
 .imagenMain{
-    width: 450px;
+    width: 350px;
     height: 90%;
 }
 .footer{
     color: white;
 }
-p{
+.texto1{
  margin-top: 23px;
   text-align: center;
   color: rgb(65, 63, 63);
@@ -134,19 +133,53 @@ footer {
 }
 
 h1{
-    align-self: self-start;
-    margin-left: 190px;
+    text-align: center;
     padding-top: 20px;
 }
+.contenedorTarjetas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.contenidoTarjetas{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tarjetas{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-color: #153ea6;
+    margin:10px 57px 20px;
+}
 /* pagina responsiva */
-@media (max-width: 780px) {
+@media (max-width: 850px) {
     .imagenMain{
         width: 250px;
-        height: 80%;
+        height: 200px;
+    }
+    .contenedor-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-texto{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
     }
     .tarjetas{
-        gap: 12px;
-        grid-column: 1/8;
+            margin: 12px;
+            height: 240px;
+            width: 240px;
+        }
+    .contenedorTarjetas{
+        display: flex;
+        flex-direction: column;
     }
-
 }
